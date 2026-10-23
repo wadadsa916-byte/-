@@ -1,0 +1,47 @@
+{
+  "name": "lmfpd",
+  "description": "Model fingerprint detection and reference collection with a live terminal interface",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://lm.ikale.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ikaleio/lm-detector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ikaleio/lm-detector/issues"
+  },
+  "bin": {
+    "fpd": "bin/fpd.js"
+  },
+  "files": [
+    "bin",
+    "data",
+    "offline",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22",
+    "bun": ">=1.4.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org",
+    "tag": "latest"
+  },
+  "keywords": [
+    "llm",
+    "fingerprint",
+    "model-detection",
+    "cli",
+    "bun"
+  ],
+  "version": "0.0.1792416845676",
+  "dependencies": {
+    "ink": "7.1.1",
+    "react": "19.3.0",
+    "terminal-link": "5.0.0"
+  },
+  "gitHead": "70410db4522387c7d4a6dff8c7a4b6ce0f0239f1"
+}

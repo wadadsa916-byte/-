@@ -1,0 +1,13 @@
+main { max-width: 46rem; display: grid; gap: 0.8rem; }
+.note { color: var(--magpie-muted, #667); font-size: 0.92rem; }
+label { display: grid; gap: 0.3rem; font-size: 0.92rem; }
+input, select, textarea { font: inherit; padding: 0.45rem 0.55rem; }
+.row { display: flex; flex-wrap: wrap; gap: 0.8rem; align-items: end; }
+.row label { min-width: 7rem; }
+.check { display: flex; gap: 0.4rem; align-items: center; min-width: 16rem; }
+.actions { display: flex; gap: 0.6rem; align-items: center; }
+pre { white-space: pre-wrap; word-break: break-all; padding: 0.7rem; border-radius: 8px; background: var(--magpie-code, rgba(0,0,0,.05)); }
+#status { font-size: 0.85rem; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 0.35rem 0.4rem; border-bottom: 1px solid var(--magpie-line, rgba(0,0,0,.12)); }
+.warn { color: var(--magpie-danger, #a33); }

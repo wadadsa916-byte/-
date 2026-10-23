@@ -1,0 +1,12 @@
+.watch-state.json
+*.log
+.DS_Store
+page/progress.js
+page/result.js
+page/history.js
+ui/progress.js
+ui/result.js
+ui/history.js
+models.json
+page/models.js
+ui/models.js

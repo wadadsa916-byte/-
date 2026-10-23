@@ -1,0 +1,38 @@
+{
+  "name": "magpie-lmfp",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "在 magpie 的自定义供应商上做模型指纹检测。页面不发网络请求。",
+  "license": "MIT",
+  "keywords": ["magpie-plugin"],
+  "magpie": {
+    "page": {
+      "title": "Model fingerprint",
+      "file": "page/index.html",
+      "icon": "page/icon.svg",
+      "titles": { "zh": "模型指纹" }
+    },
+    "panels": [
+      {
+        "slot": "provider",
+        "file": "ui/provider.html",
+        "title": "Model fingerprint",
+        "titles": { "zh": "模型指纹" }
+      }
+    ],
+    "actions": [
+      {
+        "id": "fingerprint",
+        "menu": "provider",
+        "title": "Fingerprint model",
+        "titles": { "zh": "模型指纹" }
+      }
+    ],
+    "options": {
+      "rounds": 1,
+      "count": 3,
+      "tokenizer": false
+    }
+  }
+}
